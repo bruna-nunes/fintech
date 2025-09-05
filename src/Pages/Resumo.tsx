@@ -1,9 +1,12 @@
 import React from 'react'
+import { useDataContext } from '../Contexts/DataContext';
 
 function Resumo() {
-  return (
-    <div>Resumo</div>
-  )
+    const { data } = useDataContext();
+    console.log(data);
+    return (
+        <div>Resumo</div>
+    )
 }
 
 export default Resumo

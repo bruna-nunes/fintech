@@ -1,9 +1,12 @@
 import React from 'react'
+import { useDataContext } from '../Contexts/DataContext';
 
 function Header() {
-  return (
-    <div>Header</div>
-  )
+    const { data } = useDataContext();
+    console.log(data);
+    return (
+        <div>Header</div>
+    )
 }
 
 export default Header
