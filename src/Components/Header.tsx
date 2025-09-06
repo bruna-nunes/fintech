@@ -1,11 +1,12 @@
 import React from 'react'
 import { useDataContext } from '../Contexts/DataContext';
+import DateRange from './DateRange';
 
 function Header() {
-    const { data } = useDataContext();
-    console.log(data);
     return (
-        <div>Header</div>
+        <div>
+            <DateRange />
+        </div>
     )
 }
 
