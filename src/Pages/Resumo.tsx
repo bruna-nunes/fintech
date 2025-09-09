@@ -30,7 +30,7 @@ function Resumo() {
                         .toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}
                 </div>
             </div>
-            <div className='box'>Gráficos</div>
+            <div className='box mb'>Gráficos</div>
         </section>
     )
 }
